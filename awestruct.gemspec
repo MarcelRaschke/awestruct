@@ -4,7 +4,7 @@ require 'awestruct/version'
 spec = Gem::Specification.new do |s|
   s.name          = 'awestruct'
   s.version       = Awestruct::VERSION
-  s.date          = '2019-08-19'
+  s.date          = '2020-05-24'
 
   s.authors       = ['Bob McWhirter', 'Jason Porter', 'Lance Ball', 'Dan Allen', 'Torsten Curdt', 'other contributors']
   s.email         = ['bob@mcwhirter.org', 'lightguard.jp@gmail.com', 'lball@redhat.com', 'dan.j.allen@gmail.com', 'tcurdt@vafer.org']
@@ -35,7 +35,7 @@ Compass and sass are no longer hard dependencies. You'll need too add them on yo
   EOS
 
   s.add_dependency 'haml', '>= 4.0.5', '< 6.0'
-  s.add_dependency 'asciidoctor', '~> 1.5', '>= 1.5.2'
+  s.add_dependency 'asciidoctor', '>= 1.5.2', '<3.0'
   s.add_dependency 'tilt', '~> 2.0', '>= 2.0.1'
   s.add_dependency 'mime-types', '~> 3.0'
   s.add_dependency 'rest-client', '~> 2.0'
